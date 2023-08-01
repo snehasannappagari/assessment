@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Images</title>
+  <style>
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-thumbnail {
+  margin: 15px;
+  width: 250px; 
+  height: 250px;
+  border: 2px solid black;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-thumbnail:hover {
+  transform: scale(1.2);
+}
+
+  </style>
+</head>
+<body>
+  <div class="image">
+    <div class="image-thumbnail">
+      <img src="images/jem1.jpg" alt="Thumbnail 1">
+    </div>
+    <div class="image-thumbnail">
+      <img src="images/jem2.jpg" alt="Thumbnail 2">
+    </div>
+    <div class="image-thumbnail">
+      <img src="images/jem3.avif" alt="Thumbnail 3">
+    </div>
+    <div class="image-thumbnail">
+      <img src="images/jem5.jpeg" alt="Thumbnail 5">
+    </div>
+    <div class="image-thumbnail">
+      <img src="images/jem6.avif" alt="Thumbnail 6">
+    </div>
+    <div class="image-thumbnail">
+      <img src="images/jem7.jpeg" alt="Thumbnail 7">
+    </div>
+    <div class="image-thumbnail">
+      <img src="images/jem8.webp" alt="Thumbnail 8">
+    </div>
+    <div class="image-thumbnail">
+      <img src="images/jem9.jpg" alt="Thumbnail 9">
+    </div>
+  </div>
+</body>
+</html>
